@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingHomes", "BuildingHomes\BuildingHomes.csproj", "{C14381AD-2781-457C-9797-F8DE38153006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingHomes", "BuildingHomes\BuildingHomes.csproj", "{C14381AD-2781-457C-9797-F8DE38153006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingHomes.Shared", "BuildingHomes.Shared\BuildingHomes.Shared.csproj", "{9F1E36CF-9CC4-4591-9AB7-45D28ACBE319}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C14381AD-2781-457C-9797-F8DE38153006}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C14381AD-2781-457C-9797-F8DE38153006}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C14381AD-2781-457C-9797-F8DE38153006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1E36CF-9CC4-4591-9AB7-45D28ACBE319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1E36CF-9CC4-4591-9AB7-45D28ACBE319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1E36CF-9CC4-4591-9AB7-45D28ACBE319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1E36CF-9CC4-4591-9AB7-45D28ACBE319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
